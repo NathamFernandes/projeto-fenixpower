@@ -23,3 +23,5 @@ Route::get('/equipe', [EquipeController::class, 'index']);
 
 Route::get('/alunos', [AlunosController::class, 'index']);
 Route::get('/alunos/cadastrar', [AlunosController::class, 'create']);
+Route::post('/alunos', [AlunosController::class, 'store']);
+Route::post('/alunos/deletar/{id}', [AlunosController::class, 'destroy']);
