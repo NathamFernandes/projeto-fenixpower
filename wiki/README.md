@@ -14,18 +14,11 @@
 - Validações
 - Funções do Model
 
---
+### Preciso estudar:
 
-### Funções do Model
+- CSS e Bootstrap
+- SQL
 
-#### Table::all() 
-_Mostra todos os itens da tabela_
+---
 
-#### Table::create() 
-_Cria uma tupla baseada em um array associativo_
--> $request->all(), $request->only([]) e $request->except([])
--> Para ser utilizada, precisa ser decidido os campos que serão fillables. 
--> O laravel ignora todos que não sejam $fillable.
-
-#### Table::destroy()
-_Exclui uma tupla com base em alguma informação desta_
+_Fluxo itinere tempus._
