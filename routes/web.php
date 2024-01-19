@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AlunosController;
 use App\Http\Controllers\EquipeController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,9 +16,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/equipe', [HomeController::class, 'equipe']);
 
 Route::get('/equipe', [EquipeController::class, 'index']);
 
