@@ -81,7 +81,3 @@ createInertiaApp({
 ## Estrutura de pastas
 
 ![MarineGEO circle logo](./readme-assets/foto.PNG "MarineGEO logo")
-
-
-
-change
